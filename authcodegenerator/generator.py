@@ -27,8 +27,6 @@ identifier (like HOTP counters).
 import hmac
 import hashlib
 import struct
-from typing import Optional
-
 # ---------------------------------------------------------------------------
 # Word lists – chosen to be short, unambiguous, and easily pronounceable.
 # ---------------------------------------------------------------------------

@@ -7,7 +7,7 @@ name = "authcodegenerator"
 version = "0.1.0"
 description = "Generates Auth Codes using a self-developed easy-to-remember algorithm"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 license = { text = "MIT" }
 
 [project.optional-dependencies]

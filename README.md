@@ -30,7 +30,7 @@ Properties:
 pip install .
 ```
 
-Requires Python ≥ 3.11.
+Requires Python ≥ 3.9.
 
 ## Usage
 
