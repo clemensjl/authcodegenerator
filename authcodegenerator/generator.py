@@ -5,9 +5,9 @@ Algorithm
 ---------
 1. Derive a 32-byte HMAC-SHA256 digest from the caller-supplied *secret* and
    *identifier* (e.g. a username, email, or session token).
-2. Split the digest into three non-overlapping 2-byte windows and reduce each
-   window modulo the length of the corresponding word list (adjectives, nouns)
-   or digit range (0-9) to select a component.
+2. Take three non-overlapping slices of the digest -- bytes 0-1, bytes 2-3, and
+   byte 4 -- and reduce each modulo the length of the corresponding word list
+   (adjectives, nouns) or the digit range (0-9) to select a component.
 3. Join the three components with a hyphen: ``ADJECTIVE-NOUN-DIGIT``.
 
 The result is:
