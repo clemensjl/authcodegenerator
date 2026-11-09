@@ -64,3 +64,9 @@ holding it can compute every code.
 pip install -e ".[dev]"
 python -m pytest
 ```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to send a change.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
